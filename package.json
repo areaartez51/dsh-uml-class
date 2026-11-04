@@ -1,5 +1,5 @@
 {
-  "name": "@areaartez51/uml-class-dsh",
+  "name": "@areaartez51/dsh-uml-class",
   "version": "0.20.3",
   "description": "DeepSeek Harness skill-only bundle: UML class diagrams from a JSON spec.",
   "license": "MIT",

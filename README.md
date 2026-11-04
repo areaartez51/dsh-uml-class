@@ -1,4 +1,4 @@
-# `@areaartez51/uml-class-dsh`
+# `@areaartez51/dsh-uml-class`
 
 Skill-плагин для DeepSeek Harness: диаграммы классов (UML) из JSON-описания.
 Построенный документ — один автономный HTML-файл с инлайн-SVG, зумом, темами,
@@ -13,19 +13,19 @@ CLI внутри скилла.
 **Из GitHub Release** (рекомендуется, без npm-аккаунта):
 
 ```bash
-dsh plugin --profile desktop add https://github.com/<owner>/<repo>/releases/download/v0.20.3/areaartez51-uml-class-dsh-0.20.3.tgz
+dsh plugin --profile desktop add https://github.com/areaartez51/dsh-uml-class/releases/download/v0.20.3/areaartez51-dsh-uml-class-0.20.3.tgz
 ```
 
 **Из локального архива:**
 
 ```bash
-dsh plugin --profile desktop add C:\path\to\areaartez51-uml-class-dsh-0.20.3.tgz
+dsh plugin --profile desktop add C:\path\to\areaartez51-dsh-uml-class-0.20.3.tgz
 ```
 
 **Сборка архива из исходников:**
 
 ```bash
-npm pack     # → areaartez51-uml-class-dsh-0.20.3.tgz, 35 файлов
+npm pack     # → areaartez51-dsh-uml-class-0.20.3.tgz, 35 файлов
 ```
 
 Затем перезапустите DSH: скилл `uml-class` появится в каталоге скиллов профиля `desktop`.
@@ -33,7 +33,7 @@ npm pack     # → areaartez51-uml-class-dsh-0.20.3.tgz, 35 файлов
 Удаление:
 
 ```bash
-dsh plugin --profile desktop remove @areaartez51/uml-class-dsh
+dsh plugin --profile desktop remove @areaartez51/dsh-uml-class
 ```
 
 ## Использование

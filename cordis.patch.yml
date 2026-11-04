@@ -8,4 +8,4 @@
       config:
         providerName: uml-class-plugin
         includeDefaultRoots: false
-        bundledSkillDir: !!js process.getBuiltinModule('node:module').createRequire(baseUrl).resolve('@areaartez51/uml-class-dsh/package.json').replace(/package\.json$/, '') + 'skills'
+        bundledSkillDir: !!js process.getBuiltinModule('node:module').createRequire(baseUrl).resolve('@areaartez51/dsh-uml-class/package.json').replace(/package\.json$/, '') + 'skills'
