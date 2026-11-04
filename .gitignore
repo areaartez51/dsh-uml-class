@@ -1,0 +1,7 @@
+node_modules/
+.tmp/
+dist/
+out/
+*.log
+*.bak
+npm-debug.log*

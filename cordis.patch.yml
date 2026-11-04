@@ -1,0 +1,11 @@
+# Opt-in UML class diagram filesystem Skill provider for DeepSeek Harness.
+# The Skill root ships inside this package, so it is resolved from the package's
+# own location instead of a hardcoded npm id: renaming or vendoring the package
+# (scoped, unscoped, local tarball) keeps the provider working.
+- insert:
+    - id: uml-class-skill-filesystem
+      name: '@deepseek-ai/dsh-skill-filesystem'
+      config:
+        providerName: uml-class-plugin
+        includeDefaultRoots: false
+        bundledSkillDir: !!js process.getBuiltinModule('node:module').createRequire(baseUrl).resolve('@areaartez51/uml-class-dsh/package.json').replace(/package\.json$/, '') + 'skills'

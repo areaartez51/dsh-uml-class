@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "title": "broken ref",
+  "classes": [
+    { "id": "a", "name": "A", "methods": ["+ run(): void"] },
+    { "id": "b", "name": "B" }
+  ],
+  "relations": [
+    { "from": "a", "to": "payment", "kind": "dependency", "label": "charge()" }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "schemaVersion": 1,
+  "classes": [{ "id": "a", "name": "A" }],
+  "relations": [{ "from": "a", "to": "a", "kind": "association" }]
+}

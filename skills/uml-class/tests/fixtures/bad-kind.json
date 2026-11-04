@@ -1,0 +1,5 @@
+{
+  "schemaVersion": 1,
+  "classes": [{ "id": "a", "name": "A" }, { "id": "b", "name": "B" }],
+  "relations": [{ "from": "a", "to": "b", "kind": "extends" }]
+}

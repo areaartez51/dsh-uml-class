@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "classes": [
+    { "id": "a", "name": "A" },
+    { "id": "a", "name": "Duplicate" }
+  ],
+  "relations": []
+}
